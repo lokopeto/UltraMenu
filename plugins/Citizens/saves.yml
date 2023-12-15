@@ -1,0 +1,73 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 1
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid: d8d5a923-7b20-43d8-883b-1150148d6955
+      cached-skin-uuid-name: test
+    name: test
+    uuid: 5871dffb-209a-4ca5-9a32-0bb4047890e1
+    traits:
+      type: PLAYER
+      meg_model:
+        model_data: '{"renderDistance":48,"isHeadClampUneven":false,"isBodyClampUneven":false,"maxHeadAngle":0.0,"maxBodyAngle":0.0,"minHeadAngle":0.0,"minBodyAngle":0.0,"playerMode":false,"stableAngle":15.0,"rotationDelay":10,"rotationDuration":10,"canSteer":true,"canRide":true,"isBaseEntityVisible":false,"modelRotationLock":false,"hitbox":{"width":0.75,"height":2.0,"depth":0.75,"eyeHeight":1.75},"models":{"bixo5":{"states":{"walk":{"lerpIn":0.25,"lerpOut":0.25,"time":0.19999999999999996,"speed":1.0,"phase":"PLAY","forceLoopMode":"LOOP","forceOverride":false}},"defaultStates":{"WALK":{"stateId":"walk","lerpIn":0.25,"lerpOut":0.25,"speed":1.0},"JUMP":{"stateId":"jump","lerpIn":0.25,"lerpOut":0.25,"speed":1.0},"DEATH":{"stateId":"death","lerpIn":0.25,"lerpOut":0.0,"speed":1.0},"SPAWN":{"stateId":"spawn","lerpIn":0.0,"lerpOut":0.25,"speed":1.0},"IDLE":{"stateId":"idle","lerpIn":0.25,"lerpOut":0.25,"speed":1.0}},"canHurt":true,"lockPitch":false,"lockYaw":false}}}'
+      location:
+        bodyYaw: 270.34006
+        world: world
+        x: '-13.7847'
+        y: '71.0'
+        z: '-74.5015'
+        yaw: '-89.6599'
+        pitch: '21.0353'
+      spawned: true
+      waypoints:
+        linear:
+          cachePaths: false
+          cycle: false
+          points:
+            '0':
+              location:
+                world: world
+                x: '-37.0'
+                y: '72.0'
+                z: '-58.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '1':
+              location:
+                world: world
+                x: '-18.0'
+                y: '71.0'
+                z: '-76.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '2':
+              location:
+                world: world
+                x: '7.0'
+                y: '71.0'
+                z: '-76.0'
+                yaw: '0.0'
+                pitch: '0.0'
+            '3':
+              location:
+                world: world
+                x: '-12.0'
+                y: '71.0'
+                z: '-63.0'
+                yaw: '0.0'
+                pitch: '0.0'
+        provider: linear
+      skintrait:
+        fetchDefaultSkin: true
+        signature: haW49Ldjc4DW7EgsW/fmEupnNGK88MZ3fR1mHrRUqP4O5305Y5F8c52txoy38245fjfiX8Y/pbfNxKf8WOV1fn0dZdz17Qep2WLeu98CUlLe2X5Y5awJyDmgVzrQPlTFPm9wMWiFA1uo4uaJRi5Ipag0GZ6kJzLG51lMSWn448EgioFLiFBXBTXuw72zi+3I7kHlwzKd1NDiNbOF42ZdPbnOjF5lFW+5IOUQQfAuZarL2iKTXV5SdlVisDRWNv4MahJhq99zooZKMUPdEt/cWFlOi29yZoBbrVpEcnVwyO9i+eA1Nax63tn2qY/EvStjiq2j9afg4vWZui7PrYeVxN13+J5EHupX6DmPd7OUlQE2Iu9UU0hBQvysouWCpyhgQoP0Mg67KnjNpQBNZ/v9tUwa3bpEz3SN09T2eNXLces4rpxmzGnY+zKYDFhbd+Qr3GU2sRuteOgQEvY6OPPQhm56ws23MW8TQeMdGDNgIk5pD0Hf6WW/L7b/weo4kO5u4UjJ1t4xotR6VohDI5dUeoUNP7W6JTElpv6nXOC3/GGzseDRHfsK8IYz0diC8ocz2jdTT38kkt6UHBVx+uNaEDco8cGZoSJR56RTbQdacBDX2ABKW/b3uKqNLi72m3QQqPaVMSABr0lN3lsZCWQ5DtB9ySGEzkjHxANlJj1j5p4=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMjU4MDE3Nzg0OSwKICAicHJvZmlsZUlkIiA6ICJkOGQ1YTkyMzdiMjA0M2Q4ODgzYjExNTAxNDhkNjk1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjY2QyMjNkMjM5ZWYzOWZkMmRjM2E1MjFlYzkxNWRmNjU1MjQwYjZiNDFiMTZkYTNhZmUyZjg0MGE4OTA4NTEiCiAgICB9CiAgfQp9
+        updateSkins: false
+      owner:
+        uuid: 3653dd36-ace6-4982-ace4-e15d384a0d71
+    traitnames: scoreboardtrait,location,inventory,type,meg_model,waypoints,owner,skintrait,spawned,mounttrait
+    navigator:
+      speedmodifier: '1.2999999523162842'
+      avoidwater: false
+      usedefaultstuckaction: false
