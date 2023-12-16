@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "scripts",
+			"path": "plugins/Denizen/scripts"
+		},
+		{
+			"name": "UltraMenu",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

@@ -1,83 +1,21 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 27
+last-created-npc-id: 121
 npc:
-  '1':
-    metadata:
-      cached-skin-uuid: d8d5a923-7b20-43d8-883b-1150148d6955
-      cached-skin-uuid-name: test
-    name: test
-    uuid: 5871dffb-209a-4ca5-9a32-0bb4047890e1
-    traits:
-      type: PLAYER
-      meg_model:
-        model_data: '{"renderDistance":48,"isHeadClampUneven":false,"isBodyClampUneven":false,"maxHeadAngle":0.0,"maxBodyAngle":0.0,"minHeadAngle":0.0,"minBodyAngle":0.0,"playerMode":false,"stableAngle":15.0,"rotationDelay":10,"rotationDuration":10,"canSteer":true,"canRide":true,"isBaseEntityVisible":false,"modelRotationLock":false,"hitbox":{"width":0.75,"height":2.0,"depth":0.75,"eyeHeight":1.75},"models":{"bixo5":{"states":{"idle":{"lerpIn":0.25,"lerpOut":0.25,"time":0.35000000001110954,"speed":1.0,"phase":"PLAY","forceLoopMode":"LOOP","forceOverride":false}},"defaultStates":{"WALK":{"stateId":"walk","lerpIn":0.25,"lerpOut":0.25,"speed":1.0},"DEATH":{"stateId":"death","lerpIn":0.25,"lerpOut":0.0,"speed":1.0},"JUMP":{"stateId":"jump","lerpIn":0.25,"lerpOut":0.25,"speed":1.0},"SPAWN":{"stateId":"spawn","lerpIn":0.0,"lerpOut":0.25,"speed":1.0},"IDLE":{"stateId":"idle","lerpIn":0.25,"lerpOut":0.25,"speed":1.0}},"canHurt":true,"lockPitch":false,"lockYaw":false}}}'
-      location:
-        bodyYaw: 216.38913
-        world: world
-        x: '-27.6874'
-        y: '72.0'
-        z: '-64.2103'
-        yaw: '-143.6109'
-        pitch: '21.0353'
-      spawned: true
-      waypoints:
-        linear:
-          cachePaths: false
-          cycle: false
-          points:
-            '0':
-              location:
-                world: world
-                x: '-37.0'
-                y: '72.0'
-                z: '-58.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '1':
-              location:
-                world: world
-                x: '-18.0'
-                y: '71.0'
-                z: '-76.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '2':
-              location:
-                world: world
-                x: '7.0'
-                y: '71.0'
-                z: '-76.0'
-                yaw: '0.0'
-                pitch: '0.0'
-            '3':
-              location:
-                world: world
-                x: '-12.0'
-                y: '71.0'
-                z: '-63.0'
-                yaw: '0.0'
-                pitch: '0.0'
-        provider: linear
-      skintrait:
-        fetchDefaultSkin: true
-        signature: haW49Ldjc4DW7EgsW/fmEupnNGK88MZ3fR1mHrRUqP4O5305Y5F8c52txoy38245fjfiX8Y/pbfNxKf8WOV1fn0dZdz17Qep2WLeu98CUlLe2X5Y5awJyDmgVzrQPlTFPm9wMWiFA1uo4uaJRi5Ipag0GZ6kJzLG51lMSWn448EgioFLiFBXBTXuw72zi+3I7kHlwzKd1NDiNbOF42ZdPbnOjF5lFW+5IOUQQfAuZarL2iKTXV5SdlVisDRWNv4MahJhq99zooZKMUPdEt/cWFlOi29yZoBbrVpEcnVwyO9i+eA1Nax63tn2qY/EvStjiq2j9afg4vWZui7PrYeVxN13+J5EHupX6DmPd7OUlQE2Iu9UU0hBQvysouWCpyhgQoP0Mg67KnjNpQBNZ/v9tUwa3bpEz3SN09T2eNXLces4rpxmzGnY+zKYDFhbd+Qr3GU2sRuteOgQEvY6OPPQhm56ws23MW8TQeMdGDNgIk5pD0Hf6WW/L7b/weo4kO5u4UjJ1t4xotR6VohDI5dUeoUNP7W6JTElpv6nXOC3/GGzseDRHfsK8IYz0diC8ocz2jdTT38kkt6UHBVx+uNaEDco8cGZoSJR56RTbQdacBDX2ABKW/b3uKqNLi72m3QQqPaVMSABr0lN3lsZCWQ5DtB9ySGEzkjHxANlJj1j5p4=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMjU4MDE3Nzg0OSwKICAicHJvZmlsZUlkIiA6ICJkOGQ1YTkyMzdiMjA0M2Q4ODgzYjExNTAxNDhkNjk1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZXN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjY2QyMjNkMjM5ZWYzOWZkMmRjM2E1MjFlYzkxNWRmNjU1MjQwYjZiNDFiMTZkYTNhZmUyZjg0MGE4OTA4NTEiCiAgICB9CiAgfQp9
-        updateSkins: false
-      owner:
-        uuid: 3653dd36-ace6-4982-ace4-e15d384a0d71
-    traitnames: location,mounttrait,owner,inventory,scoreboardtrait,waypoints,meg_model,spawned,skintrait,type
-    navigator:
-      speedmodifier: '1.2999999523162842'
-      avoidwater: false
-      usedefaultstuckaction: false
-  '27':
+  '118':
     metadata:
       cached-skin-uuid: 3653dd36-ace6-4982-ace4-e15d384a0d71
       cached-skin-uuid-name: lokopetoo
     name: lokopetoo
-    uuid: 94408391-bc2c-4a7d-ade7-437b7aeb9ac7
+    uuid: aa92e100-a713-453d-8031-cd811bd4f1cd
     traits:
+      spawned: true
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: n5hTE7JY0T1cdP6fcF9sqFOeZcvooKj9Ses6A7tmuFv0z+7qFxdA1IJjksaZmuuEBcsmqqphwjrgXYATDx2c6OWuI80860vF7VWE9snggsduLnJJXdI5M7xlOEIoNnGgzOPh82hipvN2TiH0TDLlEK2BMxYm9i9IrUnRX0UfexIudUh1Cz6Bgy6GKw0n1bZCGoy6VdeCpPRDDj6n5p5QYiWwPsCQgMog8sGVOKS4BdzK58gQsbl+EGR+7QiNWfHHHThANlYQbcfJeQx6stBUGAyjmogb2+rXdmjDd+8bIg7d/4AbvwWGA5F3S+YV0tv/MYkJJzoo7a2D1BTla3r90NWh2tTVGSDn6Oso5jGnSDe9e4ErfpSJDGbFRq/qYamKxjKM6d6WluMpgoJy7sjcVlAFTWVwErVniXsbdZF4M4cP4dVsrWBj9KIgUVarteN8jG7Yqw+QZiGTyOKawOmBC0hjwG8kWsJdVsFOzO7UzmUCE0Okjcd+C7aqaxwgKxCUImLnT8q/wCs5P6PZe/+Ywp569T9KWwfJEH6yGk2qw/J1tRJ3k+fqMK8iZ28DAv/asCeA2a+/Xq+2mkLK7tAFnoN/wBFkbpbmUyYwltfv9ibcjaW549K06Zo5MIXFLOc730zPXf9Vr20smR0GtdpIZxdVf/LhTQvavJvRImaOXd8=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMjc0MzYyMzQ4MywKICAicHJvZmlsZUlkIiA6ICIzNjUzZGQzNmFjZTY0OTgyYWNlNGUxNWQzODRhMGQ3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsb2tvcGV0b28iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE1ODAzNzUwMTNkYmM3Nzk0MmIzZjUzNzUyMTM3YTYzZWZkMmM4NDk0MjAyNjgzMzFhYzM5MmQ1NGIwNjZiZSIKICAgIH0KICB9Cn0=
+        updateSkins: false
       location:
         bodyYaw: -180.0
         world: world
@@ -86,17 +24,6 @@ npc:
         z: '114.5'
         yaw: '-180.0'
         pitch: '0.0'
-      mounttrait:
-        mountedon: f23eecb6-8b3a-498c-9a18-426309ab5f70
-      denizen_flags:
-        full_flag_data:
-          menuinicionpc: map@[__value=map@[p@3653dd36-ace6-4982-ace4-e15d384a0d71=map@[__value=true]]]
-      skintrait:
-        fetchDefaultSkin: true
-        signature: lTck3WbbeUpNW20YOAVuwpyvrB1UOtA5W1aAGx5ZAqS8ZWkC6aUfkEzYXuJCqaonZ8EHNoTJIFNBM0NzU3nkhl+gSZjByDExQ8UrSMXqiRTBFPobXJlqIBOLFHAIxQVu4ic1/Kw2MpkJH76fI/ZTUErpWTXbBoOICJCVwzEUlwODPocV7JSlgvVlWeGL+ZlhZkvaT37EWo2xPGFQLKIEhYI40OJ/7Br0+Rz1hIvBTui3aWCkoRni0kBPS/4QPR/lSNbOGwbo9SgF5ihoHI/Ni1AUpebY62+4olyoi4q2NtOjFFgytBRqGcN8fCgjNgRRz//X97V0iOqTp7B1Oig9U+vEpTocEojdTDx38/kqgk/h/mTH78HXpjAilDTvaumuVKH3QD4OrU+j+XvSu3Z6D5WqCiUlki4Wh3q50uoB+7+smS/dyLkQlqg2iqvd0nHHB6voMgmbcH46S4USSXG7AZ2fy+jvfl2ohkqwqiI0p4oyhH8/8iJBcgDQpOvqLlgZZGrfIR5QDtGN96ARorcmg+yIjBAbK0l+ld9D4+wZn9vMNZ9kDbLFJNaRCgpgFf8YM1TDklZJVbeivudPwVKKw2ziTetJQE6fb2+xDzwCkCLDPMcszXslbL6EqmgpriJcegt42ClB/sABG3wEVr/5bORXodUY0Hvw4jboEIFynoo=
-        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcwMjYxNzY3NTQ5MCwKICAicHJvZmlsZUlkIiA6ICIzNjUzZGQzNmFjZTY0OTgyYWNlNGUxNWQzODRhMGQ3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsb2tvcGV0b28iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE1ODAzNzUwMTNkYmM3Nzk0MmIzZjUzNzUyMTM3YTYzZWZkMmM4NDk0MjAyNjgzMzFhYzM5MmQ1NGIwNjZiZSIKICAgIH0KICB9Cn0=
-        updateSkins: false
-      spawned: true
       sitting:
         sitting: true
         chair location:
@@ -106,8 +33,36 @@ npc:
           z: '114.5'
           yaw: '-180.0'
           pitch: '0.0'
-      type: PLAYER
-    traitnames: location,mounttrait,scoreboardtrait,inventory,denizen_flags,skintrait,spawned,sitting,type
+      denizen_flags:
+        full_flag_data:
+          menuinicionpc: map@[__value=map@[p@ed5cee70-0798-3e13-b06c-47759ae5453b=map@[__value=true]]]
+      mounttrait:
+        mountedon: a791c371-033b-4013-b369-62f5a667dbbf
+    traitnames: spawned,type,skintrait,inventory,location,scoreboardtrait,sitting,denizen_flags,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '119':
+    name: startmenu_lokopetoo
+    uuid: a76f98a2-8aef-44db-8ca1-cbe9fcc27f7e
+    traits:
+      spawned: true
+      type: BOAT
+      meg_model:
+        model_data: '{"renderDistance":64,"isHeadClampUneven":false,"isBodyClampUneven":false,"maxHeadAngle":0.0,"maxBodyAngle":0.0,"minHeadAngle":0.0,"minBodyAngle":0.0,"playerMode":false,"stableAngle":15.0,"rotationDelay":10,"rotationDuration":10,"canSteer":true,"canRide":true,"isBaseEntityVisible":false,"modelRotationLock":false,"hitbox":{"width":1.375,"height":0.5625,"depth":1.375,"eyeHeight":0.28125},"models":{"passarin":{"states":{"idle":{"lerpIn":0.25,"lerpOut":0.25,"time":10.749900436439773,"speed":1.0,"phase":"PLAY","forceLoopMode":"LOOP","forceOverride":false}},"defaultStates":{"JUMP":{"stateId":"jump","lerpIn":0.25,"lerpOut":0.25,"speed":1.0},"IDLE":{"stateId":"idle","lerpIn":0.25,"lerpOut":0.25,"speed":1.0},"SPAWN":{"stateId":"spawn","lerpIn":0.0,"lerpOut":0.25,"speed":1.0},"DEATH":{"stateId":"death","lerpIn":0.25,"lerpOut":0.0,"speed":1.0},"WALK":{"stateId":"walk","lerpIn":0.25,"lerpOut":0.25,"speed":1.0}},"canHurt":true,"lockPitch":false,"lockYaw":false}}}'
+      location:
+        bodyYaw: 0.0
+        world: world
+        x: '-24.41'
+        y: '175.0'
+        z: '110.53'
+        yaw: '0.0'
+        pitch: '-40.5'
+      denizen_flags:
+        full_flag_data:
+          startmenu: map@[__value=map@[p@ed5cee70-0798-3e13-b06c-47759ae5453b=map@[__value=true]]]
+    traitnames: spawned,type,meg_model,location,scoreboardtrait,denizen_flags,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
