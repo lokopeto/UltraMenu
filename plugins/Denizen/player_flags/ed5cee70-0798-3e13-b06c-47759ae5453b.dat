@@ -1,2 +1,4 @@
-menu:1
+blockmenu1:true
+menu:3
 menulimite:3
+teleport:true
